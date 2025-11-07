@@ -17,20 +17,21 @@ class Stack {
   isEmpty() {
     return this.arr.length === 0;
   }
-  print(){
-    console.log(this.arr)
+  print() {
+    console.log(this.arr);
   }
 }
 
-const stack = new Stack()
+const stack = new Stack();
 
-stack.push(2)
+stack.push(2);
 
-stack.push(5)
+stack.push(5);
 
-console.log(stack.pop())
+console.log(stack.pop());
 
-console.log(stack.pop())
+console.log(stack.pop());
 
-console.log(stack.pop())
-stack.print()
+console.log(stack.pop());
+stack.print();
+export default Stack;
