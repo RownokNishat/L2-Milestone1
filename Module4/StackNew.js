@@ -21,17 +21,5 @@ class Stack {
     console.log(this.arr);
   }
 }
-
-const stack = new Stack();
-
-stack.push(2);
-
-stack.push(5);
-
-console.log(stack.pop());
-
-console.log(stack.pop());
-
-console.log(stack.pop());
-stack.print();
-export default Stack;
+// Export for CommonJS
+module.exports = Stack;
